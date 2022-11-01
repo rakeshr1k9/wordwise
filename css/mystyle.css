@@ -1,3 +1,115 @@
+.main-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+} ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.section-1 {
+  background-color: #3dede4;
+}
+
+.section-2 {
+  background-color: #208d2b;
+}
+
+.section-3 {
+  background-color: #0a0e7b;
+}
+
+.section-4 {
+  background-color: #984b28;
+}
+
+.section-5 {
+  background-color: #9c1c89;
+}
+
+.section-6 {
+  background-color: #b4ec19;
+}
+
+.section-7 {
+  background-color: #af333f;
+}
+
+.section-8 {
+  background-color: #ae3062;
+}
+
+.support-icon {
+  position: fixed;
+  bottom: 35px;
+  right: 25px;
+  background-color: #00796b;
+  border-radius: 50%;
+  padding: 8px 8px;
+  z-index: 1500;
+}
+
+.support-icon .material-icons-round {
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.support-icon:hover + .box2 .sb9{
+  display: block !important;
+
+}
+
+.box2 {
+  display: none;
+  position: fixed;
+  bottom: 110px;
+  right: 25px;
+  width: 180px;
+  border: 2px solid #00bfb6;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #00bfb6;
+}
+
+
+/* speech bubble 9 */
+
+.sb9::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00bfb6;
+  border-bottom: 10px solid transparent;
+  right: 12%;
+  bottom: -21px;
+}
+
+.sb9::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: 12%;
+  bottom: -18px;
+}
+
 /* -----START----- Menu Section */
 .navigation {
   position: fixed;
@@ -69,7 +181,7 @@
   z-index: 102;
 }
 
-.desktop-menu .mega-menu-1 .mega-menu-box{
+.desktop-menu .mega-menu-1 .container{
   background-color: #ffffff;
   margin: -25px 0 25px 0;
   padding: 25px 20px;

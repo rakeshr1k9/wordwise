@@ -1,0 +1,188 @@
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+/***** Section & Inner Section *****/
+
+/*** Section Layout ***/
+
+/* Layout */
+
+Content Width: Boxed, Full Width;
+
+Height: Fit To Screen, Minimum Height;
+
+Vertical Align: Top, Middle, Bottom, Space-Around, Space-between, Space-Evenly;
+
+/*** Section Style ***/
+
+/* Background */ (Normal, Hover)
+
+Background Type: Color, Gradient, Video, Slideshow
+
+Image: Background fit;
+
+Scrolling Effects: On, Off;
+Scrolling Effects: Vertical Scroll, Horizontal Scroll, Transparency, Blur, Scale;
+Apply Effect On: Desktop, Tablet, Mobile;
+Effects Relative To: Viewport, Entire Page;
+
+/* Background Overlay */ (Normal, Hover)
+
+Background Type: Color, Gradient;
+
+/* Border */ (Normal, Hover)
+
+Border Type: Solid, Double, Dotted, Dashed, Groove;
+
+Border Radius: Top, Right, Bottom, Left;
+(px, %)
+
+Box Shadow: 
+Color;
+Horizontal;
+Vertical;
+Blur;
+Spread;
+Position: Outline, Inline;
+
+/* Shape Divider */ (Top, Bottom)
+
+Type: Montain, Drop, etc.
+
+/* Typography */
+
+Heading Color;
+Text Color;
+Link Color;
+Link Hover Color;
+
+Text Align: Left, Centered, Right, Justified;
+
+/*** Section Advanced ***/
+
+/* Advanced */
+
+Margin: Top, Right(auto), Bottom, Left(auto);
+(px, em, %, Rem)
+
+Padding: Top, Right, Bottom, Left;
+(px, em, %, Rem)
+
+Z-Index;
+Custom CSS ID;
+Custom CSS Classes;
+
+/* Motion Effects */
+
+Scrolling Effects: On, Off;
+Scrolling Effects: Vertical Scroll, Horizontal Scroll, Transparency, Blur, Rotate, Scale;
+Apply Effect On: Desktop, Tablet, Mobile;
+Effects Relative To: Viewport, Entire Page;
+
+Sticky: None, Top, bottom;
+Sticky On: Desktop, Tablet, Mobile;
+Offset;
+Effects Offset;
+
+Entrance Animation: Default, None, Fading, Zooming, Bouncing, Sliding, Rotating, Attention Seekers;
+
+/* Responsice */
+
+Reverse Columns (Tablet): On, Off;
+Reverse Columns (Mobile): On, Off;
+
+Visibility:
+Hide On Desktop: Show, Hide;
+Hide On Tablet: Show, Hide;
+Hide On Mobile: Show, Hide;
+
+/* Custom CSS */
+
+/***** Column *****/
+
+/*** Column Layout ***/
+
+/* Layout */
+
+Column Width: in px;
+
+Vertical Align: Top, Middle, Bottom, Space-Around, Space-between, Space-Evenly;
+
+Horizontal Align: Top, Middle, Bottom, Space-Around, Space-between, Space-Evenly;
+
+Widget Space: in px;
+
+General Text-
+------------------------------------------------------------------------------------------------
+
+/***** Text *****/
+
+Text Color;
+Text Typography;
+
+Text Stroke;
+(px, em, rem)
+Stroke Color;
+
+Text Shadow;
+Color;
+Blur;
+Horizontal;
+Vertical;
+
+Blend Mode: Normal, Multiply, Screen, Overlay etc.
+
+/***** Typography *****/
+
+Font Family;
+Font Size; (px, em, rem, vw)
+Font Weight;
+Transform: Default, Uppercase, Lowercase, Capitalize, Normal;
+Font Style: Default, Normal, Italic, Oblique;
+Decoration: Default, Underline, Overline, Line through, None;
+Line Height; (px, em)
+Letter Spacing;
+Word Spacing; (px, em)
+
+Widgets-
+----------------------------------------------------------------------------------------------
+
+/***** Heading *****/
+
+/*** Heading Advanced ***/
+
+/* Transform */ (Normal, Hover)
+
+Rorate; (also 3D)
+Offset: Offset X, Offset Y;
+(px, %)
+Scale;
+Skew: Skew X, Skew Y;
+Flip Horizontal;
+Flip Vertical;
+
+/* Position */ (Not Recommended)
+
+Position: Default, Absolute, Fixid;
+Horizontal Orientation: Left, Right;
+Offset - px, %, vw, vh;
+Vertical Orientation: Top, Bottom;
+Offset - px, %, vh, vw;
+
+/***** Image *****/
+
+/*** Image Style ***/
+
+Width; (px, %, vw)
+Height; (px, %, vh)
+Max Width; (px, %, vw)
+
+Opacity;
+CSS Filter: Blur, Brightness, Contrast, Saturation, Hue;
+Transition Duration;
+Hover Animation: Grow, Shrink, Pulse, Push, Bounce, etc.
+
+
+
+
+
+
+

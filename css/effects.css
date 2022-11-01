@@ -1,0 +1,122 @@
+/* ----- START ----- Website entry animation */
+
+#hideMeAfterLoad {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #2eb58c;
+  z-index: 1000;
+  animation-name: hideEntryAnimation;
+  animation-duration: 0s;
+  animation-timing-function: ease-in;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideEntryAnimation {
+  to {
+    visibility: hidden;
+  }
+}
+
+#hideMeAfterFisrtAnimation {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #2eb58c;
+  z-index: 1001;
+}
+
+#hideMeAfterFisrtAnimation span {
+  font-size: 96px;
+  font-weight: 700;
+  padding: 40px;
+}
+
+#hideMeAfterFisrtAnimation span:nth-child(1) {
+  color: blueviolet;
+  animation-name: hideFirstEntryAnimation1;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes hideFirstEntryAnimation1 {
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+  }
+}
+
+#hideMeAfterFisrtAnimation span:nth-child(2) {
+  color: red;
+  animation-name: hideFirstEntryAnimation2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes hideFirstEntryAnimation2 {
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+  }
+}
+
+#hideMeAfterFisrtAnimation span:nth-child(3) {
+  color: yellow;
+  animation-name: hideFirstEntryAnimation3;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes hideFirstEntryAnimation3 {
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+  }
+}
+
+#showMeAfterLastAnimation {
+  text-align: center;
+  font-size: 96px;
+  font-weight: 700;
+  padding: 40px;
+  animation-duration: 1.9s;
+  animation-delay: 2.1s;
+  animation-name: showLastAnimation;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  z-index: 1002;
+}
+
+@keyframes showLastAnimation {
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+  }
+}
+
+/* ----- END ----- Website entry animation */

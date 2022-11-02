@@ -1,10 +1,42 @@
+/* -----START----- Section-1 */
+
+.section-1 {
+  width: 100%;
+}
+
+.section-1 .section-main-container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 64px 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-1 .section-main-container .container-1 {
+  flex: 50%;
+}
+
+.section-1 .section-main-container .container-2 {
+  flex: 50%;
+}
+
+.section-1 .section-main-container .container-1 img{
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+/* -----END----- Section-1 */
+
+/* -----START----- Section page scroll animation */
+
 .main-container {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
 } ::-webkit-scrollbar {
   width: 0px;
-  background: transparent; /* make scrollbar transparent */
+  background: transparent;
 }
 
 section {
@@ -15,9 +47,7 @@ section {
   scroll-snap-align: start;
 }
 
-.section-1 {
-  background-color: #3dede4;
-}
+
 
 .section-2 {
   background-color: #208d2b;
@@ -46,6 +76,10 @@ section {
 .section-8 {
   background-color: #ae3062;
 }
+
+/* -----END----- Section page scroll animation */
+
+/* -----START----- Support Section */
 
 .support-icon {
   position: fixed;
@@ -81,9 +115,6 @@ section {
   color: #00bfb6;
 }
 
-
-/* speech bubble 9 */
-
 .sb9::before {
   content: "";
   width: 0px;
@@ -110,7 +141,10 @@ section {
   bottom: -18px;
 }
 
+/* -----END----- Support Section */
+
 /* -----START----- Menu Section */
+
 .navigation {
   position: fixed;
   z-index: 99;
@@ -120,7 +154,7 @@ section {
 .desktop-menu {
     z-index: 100;
     width: 100%;
-    max-width: 1240px;
+    max-width: 1400px;
     min-height: 64px;
     max-height: 64px;
     height: 64px;

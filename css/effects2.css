@@ -1,0 +1,124 @@
+
+
+.section-1 .section-main-container .container-2 img {
+    animation-name: section-animation-6;
+  animation-duration: 2s;
+  animation-delay: 7s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  }
+
+  @keyframes section-animation-6 {
+    0% {
+       height: 20%;
+       width: 20%;
+       opacity: 1;
+    } 
+    100% {
+        height: 100%;
+        width: 100%;
+      opacity: 1;
+    }
+  }
+
+.section-1 .section-main-container .container-1 ul > li:nth-child(1) {
+    animation-name: section-animation-1;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  }
+
+  @keyframes section-animation-1 {
+    0% {
+       margin-left: -40px;
+       opacity: 1;
+    } 
+    100% {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+
+
+  .section-1 .section-main-container .container-1 ul > li:nth-child(3) {
+    animation-name: section-animation-2;
+  animation-duration: 1s;
+  animation-delay: 6s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  }
+
+  @keyframes section-animation-2 {
+    0% {
+       margin-left: -40px;
+       opacity: 1;
+    } 
+    100% {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+
+  .section-1 .section-main-container .container-1 ul > li:nth-child(5) {
+    animation-name: section-animation-3;
+  animation-duration: 1s;
+  animation-delay: 7s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  }
+
+  @keyframes section-animation-3 {
+    0% {
+       margin-left: -40px;
+       opacity: 1;
+    } 
+    100% {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+
+  .section-1 .section-main-container .container-1 ul > li:nth-child(6) {
+    animation-name: section-animation-4;
+  animation-duration: 1s;
+  animation-delay: 7s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  }
+
+  @keyframes section-animation-4 {
+    0% {
+       margin-left: -40px;
+       opacity: 1;
+    } 
+    100% {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+
+  .section-1 .section-main-container .container-1 ul > li:nth-child(8) {
+    animation-name: section-animation-5;
+  animation-duration: 1s;
+  animation-delay: 8s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  }
+
+  @keyframes section-animation-5 {
+    0% {
+       margin-left: -40px;
+       opacity: 1;
+    } 
+    100% {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }

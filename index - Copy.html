@@ -17,14 +17,23 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/globalstyle.css" />
+    <link rel="stylesheet" href="./css/myglobalstyle.css" />
     <link rel="stylesheet" href="./css/mystyle.css" />
     <link rel="stylesheet" href="./css/effects.css" />
     <link rel="stylesheet" href="./css/effects2.css" />
+    <link rel="stylesheet" href="./css/teststyle.css" />
   </head>
   <body>
 
-    <div id="hideMeAfterLoad">
+    <div class="layout">
+
+      <div class="section-stick">
+        <div class="stick active"></div>
+      </div>
+
+    
+
+    <!-- <div id="hideMeAfterLoad">
       <div class="entry-animation-1">
         <span>L</span>
         <span>o</span>
@@ -46,10 +55,10 @@
       <div class="entry-animation-3">
         <span>Past.</span>
       </div>
-    </div>
+    </div> -->
 
     <header class="header">
-      <div class="navigation">
+      <div class="navigation primary-background-color">
         <div class="desktop-menu">
           <div class="logo">
             <a href="https://wordwise.one/#"><img src="/img/logo.png" /></a>
@@ -137,20 +146,20 @@
       </div>
     </header>
 
-    <div class="main-container">
+    <div class="main-container primary-background-color">
 
       <section class="section-1">
         <div class="section-main-container">
           <div class="container-1">
             <ul>
-              <li><span>Analytically <span style="color: var(--main-color-green);">Insightful</span></li>
+              <li><span>Analytically <span style="color: #ffffff;">Insightful</span></li>
               <li style="height: 8px;"></li>
-              <li><span style="color: var(--main-color-orange);">Humanly</span> <span>&nbspCrafted</span></li>
+              <li><span>Humanly <span style="color: #ffffff;">Crafted</span></span></li>
               <li style="height: 8px;"></li>
               <li><span>Original and Hyper-Local</span></li>
               <li><span>Lingustic User Experience</span></li>
               <li style="height: 40px;"></li>
-              <li><span style="font-size: 32px; font-weight:500">In <span style="color: var(--main-color-green);">20</span> Regional Languages<br>and Countless Dialects</span></li>
+              <li><span style="font-size: 32px; font-weight:500">In <span style="color: #ffffff;">20</span> Regional Languages<br>and Countless Dialects</span></li>
             </ul>
           </div>
           <div class="container-2">
@@ -159,13 +168,13 @@
 
         </div>
       </section>
-
-      <section class="section-2">
+  
+      <section class="section-2 primary-background-color">
         <div class="section-main-container">
-          <span style="color: var(--main-color-green);">We Are <span class="ppppp" style="color: var(--main-color-orange);">Not Just Content</span> Writers.</span>
+          <span>We Are <span class="ppppp" style="color: #ffffff;">Not Just Content</span> Writers.</span>
         <div>
       </section>
-
+  
       <section class="section-3">
         <h1>Third Section</h1>
       </section>
@@ -261,8 +270,11 @@
       </div>
     </nav> -->
 
-    <!-- <footer class="footer"></footer> -->
+    <footer class="footer"></footer>
 
+  </div>
+
+  <script src="./js/scroll.js"></script>
     <script src="./js/myscript.js"></script>
   </body>
 </html>

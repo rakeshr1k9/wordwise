@@ -8,7 +8,7 @@
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background-color: #32B78D;
+  background-color: var(--main-color-white-2);
   z-index: 1000;
   animation-name: hideEntryAnimation;
   animation-duration: 0s;
@@ -31,6 +31,7 @@
 
 .entry-animation-1 {
   position: absolute;
+  color: var(--main-color-green);
 }
 
 .entry-animation-1 span:nth-child(1) {
@@ -158,6 +159,7 @@
 
 .entry-animation-2 {
   position: absolute;
+  color: var(--main-color-orange);
 }
 
 .entry-animation-2 span:nth-child(1) {
@@ -195,6 +197,7 @@
 
 .entry-animation-3 {
   position: absolute;
+  color: var(--main-color-green);
 }
 
 .entry-animation-3 span:nth-child(1){

@@ -1,43 +1,34 @@
-/* -----START----- Section-1 */
+/* -----START----- Main Container */
 
 .main-container {
   scroll-snap-type: y mandatory;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-destination: 0 0;
+  -ms-scroll-snap-destination: 0 0;
   overflow-y: scroll;
+  scroll-behavior: smooth;
+  overscroll-behavior-y: none;
   height: 100vh;
-} ::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 section {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   scroll-snap-align: start;
+  scroll-snap-stop: always;
+  scroll-behavior: smooth;
+  padding-top: var(--desktop-menu-height);
 }
+
+/* -----END----- Main Container */
+
+/* -----START----- Section-1 */
 
 .section-1 {
   width: 100%;
   height: 100vh;
-}
-
-.section-2 {
-  width: 100%;
-  height: 100vh;
-}
-
-.section-2 .section-main-container {
-  max-width: 1400px;
-  margin: auto;
-  padding: 64px 30px;
-  display: flex;
-  align-items: center;
-}
-
-.section-2 .section-main-container {
-  font-size: 64px;
-  font-weight: 800;
+  background-color: var(--main-color-white-2);
 }
 
 .section-1 .section-main-container {
@@ -74,34 +65,70 @@ section {
 
 /* -----END----- Section-1 */
 
-/* -----START----- Section page scroll animation */
+/* -----START----- Section-2 */
 
-
-.section-3 {
-  background-color: #0a0e7b;
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color-white-3);
 }
 
+.section-2 .section-main-container {
+  height: 100vh;
+  max-width: 1400px;
+  margin: auto;
+  padding: 64px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2 .section-main-container {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+/* -----END----- Section-2 */
+
+/* -----START----- Section-3 */
+
+.section-3 {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color-white-2);
+}
+
+/* -----END----- Section-3 */
+
 .section-4 {
-  background-color: #984b28;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color-white-3);
 }
 
 .section-5 {
-  background-color: #9c1c89;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color-white-2);
 }
 
 .section-6 {
-  background-color: #b4ec19;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color-white-3);
 }
 
 .section-7 {
-  background-color: #af333f;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color-white-2);
 }
 
 .section-8 {
-  background-color: #ae3062;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color-white-3);
 }
-
-/* -----END----- Section page scroll animation */
 
 /* -----START----- Support Section */
 
@@ -113,11 +140,6 @@ section {
   border-radius: 50%;
   padding: 8px 8px;
   z-index: 1500;
-}
-
-.support-icon .material-icons-round {
-  font-size: 48px;
-  color: #ffffff;
 }
 
 .support-icon:hover + .box2 .sb9{
@@ -173,6 +195,7 @@ section {
   position: fixed;
   z-index: 99;
   width: 100%;
+  background-color: var(--main-color-white-2);
 }
 
 .desktop-menu {
@@ -220,7 +243,7 @@ section {
 }
 
 .desktop-menu .menu-items > li > a:hover{
-    background-color: #3A3B3C;
+    color: var(--main-color-yellow);
 }
 
 .desktop-menu .menu-items li:hover .mega-menu-1{
@@ -250,18 +273,13 @@ section {
   box-shadow: 0 6px 10px rgba(0,0,0,0.15);
 }
 
-.desktop-menu .mega-menu-1 .shape-icon .material-icons-round {
-  color: #ffffff;
-  font-size: 48px;
-}
-
 .desktop-menu .menu-buttons > button{
   outline: 0;
   display: inline-block;
   border-style: solid;
   border-width: 2px;
-  background-color: #00796b;
-  border-color: #00796b;
+  background-color: var(--main-color-yellow);
+  border-color: var(--main-color-yellow);
   border-radius: 12px;
   color: #ffffff;
   cursor: pointer;
@@ -276,10 +294,11 @@ section {
 .desktop-menu .menu-buttons > button:hover{
   border-style: solid;
   background-color: #d9d9d9;
-  border-color:#00796b;
+  border-color:var(--main-color-yellow);
   border-radius: 12px;
   border-width: 2px;
   color: #363636;
+  transition: all 0.4s ease;
  
 }
 
